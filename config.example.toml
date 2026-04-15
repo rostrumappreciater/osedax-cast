@@ -1,0 +1,22 @@
+# Osedax-Cast Configuration
+
+[audiobookshelf]
+url = "http://localhost:13378"
+api_key = "your-api-token-here"
+poll_interval_minutes = 60
+
+[content]
+library_path = "/var/lib/osedax-cast/library"
+opus_bitrate = "32k"
+page_size = 50
+
+[reticulum]
+# Destination identity file (created on first run)
+identity_file = "~/.osedax-cast/identity"
+# Allowed client hashes (hex strings)
+whitelist = []
+
+[nomadnet]
+# NomadNet node URL for publishing .mu pages
+node_url = "http://localhost:8080"
+publish_path = "/osedax"
