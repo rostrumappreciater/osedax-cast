@@ -1,0 +1,5 @@
+rns>=0.7.0
+lxmf>=0.4.0
+requests>=2.31.0
+tomli>=2.0.0
+ffmpeg-python>=0.2.0
